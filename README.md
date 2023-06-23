@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/KatrineNPedersen/Interactive-Rating-Component.git]
-- Live Site URL: [https://katrinenpedersen.github.io/Interactive-Rating-Component/]
+- Live Site URL: [https://katrinenpedersen.github.io/Interactive-Rating-Component]
 
 ## My process
 
