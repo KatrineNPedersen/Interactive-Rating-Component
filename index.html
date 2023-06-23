@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main role="main">
+      <!-- Rating state start -->
+      <div class="rating-box rating-state">
+        <img class="star-image" src="images/icon-star.svg" alt="star-image" />
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="rating-number">
+          <div class="rating rating-1">1</div>
+          <div class="rating rating-2">2</div>
+          <div class="rating rating-3">3</div>
+          <div class="rating rating-4">4</div>
+          <div class="rating rating-5">5</div>
+        </div>
+        <button>SUBMIT</button>
+      </div>
+
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+      <div class="rating-box thank-you-state hidden">
+        <img
+          class="thank-you-image"
+          src="images/illustration-thank-you.svg"
+          alt="thank-you-image"
+        />
+        <div class="selected-rating">
+          <p class="thank-you selection">You selected 5 out of 5</p>
+        </div>
+        <h1 class="thank-you">Thank you!</h1>
+        <p class="thank-you">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </main>
+    <!-- Thank you state end -->
+    <footer role="contentinfo" class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/KatrineNPedersen">Katrine Pedersen</a>.
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
